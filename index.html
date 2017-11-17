@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Stopwatch App</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <h1>Stopwatch</h1>
+        </div>
+    </header>
+    <section>
+        <div class="lap">
+            <span id="lapminute">00</span>:<span id="lapsecond">00</span>:<span id="lapcentisecond">00</span>
+        </div>
+        <div class="time">
+            <span id="timeminute">00</span>:<span id="timesecond">00</span>:<span id="timecentisecond">00</span>
+        </div>
+        <div id="controls">
+            <div class="row">
+                <div class="col-xs-2 col-xs-offset-4">
+                    <div class="startbtn control">
+                        Start
+                    </div>
+                    <div class="stopbtn control">
+                        Stop
+                    </div>
+                    <div class="resumebtn control">
+                        Resume
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <div class="lapbtn control">
+                        Lap
+                    </div>
+                    <div class="resetbtn control">
+                        Reset
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="laps">
+
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

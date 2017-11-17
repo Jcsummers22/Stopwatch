@@ -1,0 +1,85 @@
+body {
+    background: url(images/track.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+   font-family: Courier New, Courier, monospace;
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+section .lap {
+    text-align: right;
+    font-size: 4vw;
+    margin-right: 10px;
+}
+
+section .time {
+    text-align: center;
+    font-size: 10vw;
+}
+
+#controls {
+    margin-bottom: 50px;
+}
+
+.control {
+    background-color: #d7A04e;
+    border-radius: 50%;
+    height: 10vw;
+    width: 10vw;
+    text-align: center;
+    font-size: 2.5vw;
+    padding: 20% 0;
+    cursor: pointer;
+}
+
+.control:active {
+    background-color: #fff;
+    color: #d7A04e;
+}
+
+#lapcentisecond {
+    width: 20px;
+    display: inline-block;
+}
+
+#timecentisecond {
+    width: 40px;
+    display: inline-block;
+}
+
+.laps {
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.newLap {
+    height: 50px;
+    border-bottom: 4px solid #fff;
+    margin: 15px;
+}
+
+.laptitle {
+    font-size: 1.5em;
+    float: left;
+}
+
+.laptime {
+    font-size: 2em;
+    float: right;
+}
+
+@media(min-width: 768px) {
+    #lapcentisecond {
+        width: 50px;
+        margin-right: 10px;
+    }
+    #timecentisecond {
+        width: 100px;
+    }
+}
